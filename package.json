@@ -1,0 +1,31 @@
+{
+  "name": "ovh-build",
+  "description": "OVH bills downloader",
+  "version": "0.1",
+  "homepage": "https://drumee.com",
+  "author": "Somanos Sar <somanos@drumee.com> (http://drumee.com)",
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.drumee.in:drumee/demo.git"
+  },
+  "bugs": {
+    "url": "https://drumee.com/"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://fr.wikipedia.org/wiki/Licence_MIT"
+    }
+  ],
+  "main": "./index.js",
+  "keywords": [],
+  "license": "https://fr.wikipedia.org/wiki/Licence_MIT",
+  "dependencies": {
+    "jsonfile": "^6.1.0",
+    "minimist": "^1.2.5",
+    "ovh": "^2.0.3"
+  },
+  "scripts": {
+    "mybills": "./index.js"
+  }
+}
